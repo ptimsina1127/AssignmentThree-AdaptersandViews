@@ -22,21 +22,25 @@ public class CountryAdapter extends BaseAdapter {
         this.context = context;
     }
 
+    //Return number of items
     @Override
     public int getCount() {
         return list.size();
     }
 
+    //Return item
     @Override
     public Object getItem(int position) {
         return list.get(position);
     }
 
+    //Return item id
     @Override
     public long getItemId(int position) {
         return position;
     }
 
+    // Get the view at specified position
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null){
