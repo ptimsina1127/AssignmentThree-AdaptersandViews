@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         //button is referenced to UI's signup button
         this.initializeviews();
         // Attaching listener to date picker button
@@ -101,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             String password = passwordEditText.getText().toString();
             String about = aboutEditText.getText().toString();
             String dob = datePickerButton.getText().toString();
-            String country = (String) spinner.getSelectedItem();
+            Country country = (Country)spinner.getSelectedItem();
 
             if (name.trim().equals("")) {
                 Toast.makeText(this, "Name is Required !!", Toast.LENGTH_SHORT).show();
@@ -141,8 +142,8 @@ public class MainActivity extends AppCompatActivity {
             }
             Log.w("Name", name);
             Log.w("Gender", gender);
-            Log.w("CourseDurgeshs", courses);
-            Log.w("Country",country);
+            Log.w("Courses", courses);
+            Log.w("Country", country.getName());
 
             Toast.makeText(this, "Got the Data", Toast.LENGTH_SHORT).show();
 
