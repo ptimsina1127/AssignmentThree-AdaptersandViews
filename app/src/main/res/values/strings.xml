@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">AssignmentThree-AdaptersandViews</string>
+    <string name="about_of_the_activity">About of the Activity</string>
+    <string name="about">About</string>
+    <string name="dashboard_activity">DashBoard Activity</string>
+    <string name="login_activity">Login Activity</string>
+    <string name="welcome_to_android_development">Welcome To Android Development</string>
+    <string name="signup_here">Signup Here</string>
+    <string name="login_to_continue">Login To Continue</string>
+    <string name="about_this_app">About This App</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="nepal">NEPAL</string>
+    <string name="about_country">About Country…</string>
+    <string name="countryflag">Countryflag</string>
+    <string name="enter_name_here">Enter Name here…</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="enter_password_here">Enter Password here</string>
+    <string name="describe_yourself">Describe Yourself:</string>
+    <string name="type_here">Type Here…</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="interested_courses">Interested Courses:</string>
+    <string name="java">JAVA</string>
+    <string name="android">Android</string>
+    <string name="python">Python</string>
+    <string name="select_dob">Select DOB :</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="select_country">Select Country :</string>
+    <string name="signup">Signup</string>
+    <string name="clear">Clear</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="name">Name</string>
+    <string name="fill_all_details_correctly">Fill All Details Correctly…</string>
 </resources>

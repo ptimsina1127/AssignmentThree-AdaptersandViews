@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:text=" Signup here"
+        android:text="@string/signup_here"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:text="Fill All Details Correctly..."
+        android:text="@string/fill_all_details_correctly"
         android:textSize="18sp" />
 
     <TextView
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:text="Name" />
+        android:text="@string/name" />
 
     <EditText
         android:id="@+id/name_edit_text"
@@ -42,7 +42,7 @@
         android:background="@drawable/custom_input_text_field_background"
         android:padding="12dp"
         android:layout_marginTop="10dp"
-        android:hint="Enter Name here..."
+        android:hint="@string/enter_name_here"
         android:inputType="text" />
 
     <TextView
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:text="Email" />
+        android:text="@string/email" />
 
     <EditText
         android:id="@+id/email_edit_text"
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Enter Email"
+        android:hint="@string/enter_email"
         android:background="@drawable/custom_input_text_field_background"
         android:padding="12dp"
         android:layout_marginTop="10dp"
@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:text="Password" />
+        android:text="@string/password" />
 
     <EditText
         android:id="@+id/password_edit_text"
@@ -82,7 +82,7 @@
         android:background="@drawable/custom_input_text_field_background"
         android:padding="12dp"
         android:layout_marginTop="10dp"
-        android:hint="Enter Password here"
+        android:hint="@string/enter_password_here"
         android:inputType="textPassword" />
 
     <TextView
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:text="Describe Yourself:" />
+        android:text="@string/describe_yourself" />
 
     <EditText
         android:id="@+id/about_edit_text"
@@ -101,7 +101,7 @@
         android:layout_weight="1"
         android:background="@drawable/custom_input_text_field_background"
         android:ems="10"
-        android:hint="Type Here..."
+        android:hint="@string/type_here"
         android:inputType="textMultiLine"
         android:padding="12dp" />
 
@@ -111,7 +111,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:text="Gender" />
+        android:text="@string/gender" />
 
     <RadioGroup
         android:id="@+id/gender_radio_group"
@@ -124,22 +124,22 @@
             android:id="@+id/gender_male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Male" />
+            android:text="@string/male" />
 
         <RadioButton
             android:id="@+id/gender_female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:text="Female" />
+            android:layout_marginStart="30dp"
+            android:text="@string/female" />
 
         <RadioButton
             android:id="@+id/gender_other"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             android:layout_weight="1"
-            android:text="Other" />
+            android:text="@string/other" />
 
     </RadioGroup>
 
@@ -149,7 +149,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:text="Interested Courses:" />
+        android:text="@string/interested_courses" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -162,21 +162,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="JAVA" />
+            android:text="@string/java" />
 
         <CheckBox
             android:id="@+id/python_course"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Python" />
+            android:text="@string/python" />
 
         <CheckBox
             android:id="@+id/android_course"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Android" />
+            android:text="@string/android" />
     </LinearLayout>
     <!--    Date picker for dob-->
     <TextView
@@ -185,7 +185,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:text="Select DOB :" />
+        android:text="@string/select_dob" />
 
     <EditText
         android:id="@+id/pick_date_button"
@@ -196,7 +196,7 @@
         android:padding="12dp"
         android:inputType="none"
         android:focusable="false"
-        android:hint="dd/mm/yyyy"
+        android:hint="@string/dd_mm_yyyy"
         />
     <TextView
         android:id="@+id/country_label"
@@ -204,7 +204,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:text="Select Country :" />
+        android:text="@string/select_country" />
     <Spinner
         android:id="@+id/country_spinner"
         android:layout_width="match_parent"
@@ -227,7 +227,7 @@
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:backgroundTint="@android:color/holo_green_dark"
-            android:text="Signup" />
+            android:text="@string/signup" />
 
         <Button
             style="@style/Widget.Material3.Button.TonalButton"
@@ -235,7 +235,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Clear" />
+            android:text="@string/clear" />
     </LinearLayout>
 
 </LinearLayout>

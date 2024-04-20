@@ -1,16 +1,14 @@
 package com.example.assignmentthree_adaptersandviews;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.assignmentthree_adaptersandviews.data.User;
+import androidx.appcompat.app.AppCompatActivity;
 
-import java.io.Serializable;
+import com.example.assignmentthree_adaptersandviews.data.User;
 
 public class AboutActivity extends AppCompatActivity {
 
